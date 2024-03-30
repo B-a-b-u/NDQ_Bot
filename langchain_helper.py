@@ -23,9 +23,9 @@ def get_chain():
 
     # Creating Sql database object
     db_user = "root"
-    db_password = "babu"
+    db_password = "password"
     db_host = "localhost"
-    db_name = "pc_factory"
+    db_name = "database name"
 
     db = SQLDatabase.from_uri(f"mysql+pymysql://{db_user}:{db_password}@{db_host}/{db_name}",
                                 sample_rows_in_table_info=3)
